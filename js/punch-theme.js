@@ -1,7 +1,7 @@
-$(function(){
+( function( $ ) {
 	$('#tile').masonry({
-		columnWidth: 170,
-		singleMode: false,
-		itemSelector: '.box'
+			columnWidth: 170,
+			singleMode: false,
+			itemSelector: '.box'
 	});
-});
+} )( jQuery );
